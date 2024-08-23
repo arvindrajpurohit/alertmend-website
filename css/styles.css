@@ -1034,39 +1034,23 @@ main {
   justify-content: center;
   gap: 2rem 13rem;
 }
-.footer_inner .footer_links .foot_link h2 {
-  font-size: 2rem;
-  font-weight: 400;
-  margin: 0 0 1.5rem;
-  letter-spacing: -0.01rem;
+.footer_inner .footer_links ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1rem 2rem;
 }
-.footer_inner .footer_links .foot_link ul li:not(:last-child) {
-  margin: 0 0 1.5rem;
-}
-.footer_inner .footer_links .foot_link ul li a {
+.footer_inner .footer_links ul li a {
   font-size: 1.6rem;
   letter-spacing: -0.01rem;
   font-weight: 400;
   opacity: 70%;
 }
-.footer_inner .footer_links .foot_link ul li a:hover {
+.footer_inner .footer_links ul li a:hover {
   opacity: 100%;
-}
-.footer_inner .footer_links .foot_link_two {
-  max-width: 60rem;
-}
-.footer_inner .footer_links .foot_link_two ul {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0 1rem;
-}
-.footer_inner .footer_links .foot_link_two ul li {
-  width: calc(50% - 0.5rem);
 }
 .footer .copyright {
   background: #0074BA;
@@ -1088,7 +1072,7 @@ main {
   background: url(../img/arrow_down_white.svg) no-repeat center center;
 }
 .footer .copyright_inner p {
-  margin: 0 auto;
+  margin: 0 auto 0 0;
   color: #fff;
   font-size: 1.6rem;
   font-weight: 300;
