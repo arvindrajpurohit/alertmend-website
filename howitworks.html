@@ -88,10 +88,9 @@
                     <div class="howitworks_scenario_main">
                         <div class="howitworks_scenario">
                             <div class="howitworks_scenario_head">
-                                <p><strong>Scenario:</strong>Kubernetes pod crash or high garbage collection (GC) usage for a Java process.</p>
+                                <p><strong>Scenario:</strong>Node Failure Alerts.</p>
                                 <h2>AlertMend Response</h2>
-                                <p>Receives triggers from alerting tools, webhooks, or cron jobs, and initiates remediation flows to
-                                    diagnose and resolve the issue. For instance:</p>
+                                <p>Upon receiving alerts about node failures, AlertMend processes the information, identifies pods that were running on the failed node, and triggers actions to reschedule those pods on healthy nodes:</p>
                             </div>
                             <ul>
                                 <li>If a Kubernetes pod crashes, AlertMend detects the crash, identifies the issue, and triggers the
